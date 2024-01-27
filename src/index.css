@@ -37,9 +37,10 @@ strong{
   margin-bottom: 15px;
 }
 
-.profile-container {
+.profile-container h1  {
   display: flex; /* Use flexbox for layout within the profile container */
   align-items: center; /* Align items vertically in the center */
+  color:#f4f4f4;
 }
 
 #profile-picture {
@@ -48,10 +49,14 @@ strong{
   width: 100px;
   margin-right: 10px; 
 }
+.Head{
+  color: #f5f5f5;
+}
 
 header h1 p {
   margin: 0;
   font-size: 180px;
+  
 }
 
 section {
