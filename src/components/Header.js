@@ -5,7 +5,7 @@ const Header = () => {
   return (
     <header>
       <div className="profile-container">
-        <img src="img/Passport photo.JPG" alt="my picture" id="profile-picture" style={{ height: '100px', width: '100px' }} />
+        <img src="./img/Passport photo.JPG" alt="my picture" id="profile-picture" style={{ height: '100px', width: '100px' }} />
         <h1>Bernard Otieno.</h1>
       </div>
       <h3>Web developer</h3>
