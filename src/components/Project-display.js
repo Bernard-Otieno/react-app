@@ -1,5 +1,5 @@
 import React from 'react';
-import Project from './Project_component';
+import Project from './Project-display';
 
 const Projects = () => {
   // Define your project data
@@ -33,7 +33,7 @@ const Projects = () => {
         'The user-friendly interface provides seamless navigation, making it a comprehensive solution for secure financial management and analytics.',
       ],
     },
-    // Add more projects as needed
+    
   ];
 
   return (

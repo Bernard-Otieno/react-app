@@ -1,4 +1,4 @@
-
+import './CSS/header.css';
 import React from 'react';
 
 const Header = () => {
@@ -14,7 +14,6 @@ const Header = () => {
           <li><a href="#about">About Me</a></li>
           <li><a href="#projects">Projects</a></li>
           <li><a href="#contact">Contact Me</a></li>
-          {/* Add more navigation links as needed */}
         </ul>
       </nav>
     </header>
