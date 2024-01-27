@@ -10,6 +10,7 @@ const AboutMe = () => {
         </p>
         <p>
             With a strong foundation in programming languages such as
+            </p>
         <ul> <li>C++</li>
              <li>Java</li>
              <li>HTML</li>
@@ -19,7 +20,7 @@ const AboutMe = () => {
              <li>Python</li>
              <li>R</li>
         </ul> 
-         
+         <p>
          I bring a versatile skill set to collaborative projects.
         </p>
         <strong>Work Expirience</strong>
