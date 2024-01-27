@@ -2,38 +2,6 @@
 import React, { useState, useEffect } from 'react';
 
 const AboutMe = () => {
-  // State for controlling the slideshow
-  const [slideIndex, setSlideIndex] = useState(0);
-
-  // Effect to handle the slideshow
-  useEffect(() => {
-    const showSlides = () => {
-      let i;
-      const slides = document.getElementsByClassName("mySlides");
-      for (i = 0; i < slides.length; i++) {
-        slides[i].style.display = "none";
-      }
-      setSlideIndex((prevIndex) => (prevIndex + 1 > slides.length ? 1 : prevIndex + 1));
-      slides[slideIndex - 1].style.display = "block";
-    };
-
-    const intervalId = setInterval(showSlides, 2000);
-
-    return () => {
-      // Clear interval on component unmount
-      clearInterval(intervalId);
-    };
-  }, [slideIndex]);
-
-  // Functions for handling manual navigation of slides
-  const plusSlides = (offset) => {
-    setSlideIndex((prevIndex) => prevIndex + offset);
-  };
-
-  const currentSlide = (index) => {
-    setSlideIndex(index);
-  };
-
   return (
     <div id="about">
               <h1>About Me</h1>
