@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 const AboutMe = () => {
   return (
-    <div id="about">
+    <div className="about">
               <h1>About Me</h1>
         <p>
             My name is Bernard Otieno, a dedicated IT professional currently pursuing a Bachelors in Business and Information Technology (BBIT) at Strathmore University.
