@@ -3,10 +3,10 @@ import React, { useState, useEffect } from 'react';
 const Slideshow = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const images = [
-    '/img/max-verstappen-red-bull-racing.jpg',
-    '/img/d2588cfd29f9fdcfbf61f133b572cd8d.webp',
-    '/img/Jorge-Martin-2023-MotoGP-Malaysia.webp',
-    // Add more image paths as needed
+    './img/max-verstappen-red-bull-racing.jpg',
+    './img/d2588cfd29f9fdcfbf61f133b572cd8d.webp',
+    './img/Jorge-Martin-2023-MotoGP-Malaysia.webp',
+    './img/Darts_in_a_dartboard.jpg'
   ];
 
   useEffect(() => {
@@ -35,8 +35,6 @@ const Slideshow = () => {
         style={{ width: '100%', height: 'auto' }}
       />
       <br />
-      <button onClick={prevSlide}>&#10094; Prev</button>
-      <button onClick={nextSlide}>Next &#10095;</button>
     </div>
   );
 };
