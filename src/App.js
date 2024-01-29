@@ -23,6 +23,10 @@ function App() {
     <Contact />
 
     <EasterEgg />
+    <div>
+      <h1>Chuck Norris Jokes App</h1>
+      <ChuckNorrisJokes />
+    </div>
 
     <Footer />
    </div>
