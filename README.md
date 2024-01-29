@@ -54,7 +54,7 @@ A feature allowing you to rextract properties from an object and assign them to 
         <p>Email: {email}</p>
       </div>
     );
-  };
+    };
 
     export default App;
 
@@ -64,6 +64,20 @@ A feature allowing you to rextract properties from an object and assign them to 
 
 # How is it possible to use HTML and JavaScript in the same function (like in a React Component)? What makes it possible under the hood?
 JSX, a syntax extension that allows us to write HTML-like code in JavaScripts files. Transpilation converts JSX into JS that browsers can interprate. Babel converts JSX into JS that the browser can interprate.
+## Example
+JSX code
+
+        import React from 'react'
+        function Greet(){
+          return <h1>Hello World!</h1>
+        }
+
+The above example would compile into this before being used by the browser.
+
+        import React from 'react'
+        function Greet() {
+          return React.createElement("h1", {}, "Hello, World!")
+        }    
 
 # What is async/await? Bring an example
 A feature in JavaScript that is used to work with asynchronous functions. 'async' is used to declare an asynchronous function while await is used to pause a function until the promise is fulfilled/rejected.
