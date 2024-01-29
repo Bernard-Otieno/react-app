@@ -18,14 +18,14 @@ const Projects = () => {
       <div className="project" onClick={() => toggleProjectDetails('project1')}>
         <h3>Master Rotation Plan</h3>
         <div className="image-container">
-          <img src="img/MRP 1.png" alt="Project 1 Image 1" style={{ height: '300px', width: '700px' }} />
-          <img src="img/MRP 5.png" alt="Project 1 Image 2" style={{ height: '300px', width: '700px' }} />
+          <img src="img/MRP 1.png" alt="Project 1" style={{ height: '300px', width: '700px' }} />
+          <img src="img/MRP 5.png" alt="Project 1" style={{ height: '300px', width: '700px' }} />
         </div>
 
         {showProjectDetails.project1 && (
           <div id="project1-details">
             <p className="h4">This is an illustration of the project <strong>Master Rotation Plan (MRP).</strong></p>
-            <p><strong>REQUIREMENTS:</strong> To construct a web-based system capable of rotating student nurses at will.</p>
+            <p><strong>REQUIREMENTS:</strong>To construct a web-based system capable of rotating student nurses at will.</p>
             <p>This project required extensive knowledge in website design.</p>
             <p>In essence HTML, PHP, Javascript, and the Laravel framework.</p>
             <p>The project is currently running within Kenyatta University Hospital.</p>
@@ -37,8 +37,8 @@ const Projects = () => {
       <div className="project" onClick={() => toggleProjectDetails('project2')}>
         <h3>Fraud Detection System</h3>
         <div className="image-container">
-          <img src="img/IS_2 home.png" alt="Project 2 Image 1" style={{ height: '300px', width: '700px' }} />
-          <img src="img/IS_2.png" alt="Project 2 Image 2" style={{ height: '300px', width: '700px' }} />
+          <img src="img/IS_2 home.png" alt="Project 2" style={{ height: '300px', width: '700px' }} />
+          <img src='/img/IS_2.png' alt="Project 2" style={{ height: '300px', width: '700px' }} />
         </div>
 
         {showProjectDetails.project2 && (

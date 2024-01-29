@@ -8,6 +8,7 @@ import Contact from './components/Contact';
 import Projects from './components/Project-display';
 import Footer from './components/Footer';
 import EasterEgg from './components/EasterEgg';
+import Slideshow from './components/Slideshow';
 function App() {
   return (
    <div>
@@ -15,6 +16,7 @@ function App() {
     <Header />
 
     <About />
+    <Slideshow />
 
     <Projects/>
 
