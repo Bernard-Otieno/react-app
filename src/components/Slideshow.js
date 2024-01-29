@@ -32,6 +32,7 @@ const Slideshow = () => {
       <img
         src={images[currentIndex]}
         alt={`Slide ${currentIndex + 1}`}
+        style={{ width: '50%', height: '50%' }}
       />
       <br />
     </div>
