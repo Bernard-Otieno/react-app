@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 
 const AboutMe = () => {
   return (
-    <div className="about">
+    <section className="about">
               <h1>About Me</h1>
         <p>
             My name is Bernard Otieno, a dedicated IT professional currently pursuing a Bachelors in Business and Information Technology (BBIT) at Strathmore University.
@@ -37,7 +37,7 @@ const AboutMe = () => {
         </p>
         <h2>Hobbies</h2>
         <p>My diverse interests extend to sports such as football, motor-sports, gaming (Key in the konami code... ), and darts.</p>
-    </div>
+    </section>
   );
 };
 
