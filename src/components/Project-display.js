@@ -18,8 +18,8 @@ const Projects = () => {
       <div className="project" onClick={() => toggleProjectDetails('project1')}>
         <h3>Master Rotation Plan</h3>
         <div className="image-container">
-          <img src="img/MRP 1.png" alt="Project 1"/>
-          <img src="img/MRP 5.png" alt="Project 1"/>
+          <img src="img/MRP 1.png" alt="Project 1" style={{ height: '300px', width: '700px' }} />
+          <img src="img/MRP 5.png" alt="Project 1" style={{ height: '300px', width: '700px' }} />
         </div>
 
         {showProjectDetails.project1 && (
@@ -37,8 +37,8 @@ const Projects = () => {
       <div className="project" onClick={() => toggleProjectDetails('project2')}>
         <h3>Fraud Detection System</h3>
         <div className="image-container">
-          <img src="img/IS_2 home.png" alt="Project 2"/>
-          <img src='img/IS_2.png' alt="Project 2"/>
+          <img src="img/IS_2 home.png" alt="Project 2" style={{ height: '300px', width: '700px' }} />
+          <img src='img/IS_2.png' alt="Project 2" style={{ height: '300px', width: '700px' }} />
         </div>
 
         {showProjectDetails.project2 && (
