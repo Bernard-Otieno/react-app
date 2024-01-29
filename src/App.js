@@ -9,6 +9,7 @@ import Projects from './components/Project-display';
 import Footer from './components/Footer';
 import EasterEgg from './components/EasterEgg';
 import Slideshow from './components/Slideshow';
+import ChuckNorrisJokes from './components/ChuckNorrisJokes';
 function App() {
   return (
    <div>
